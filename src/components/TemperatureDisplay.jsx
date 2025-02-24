@@ -2,7 +2,7 @@ import React from "react";
 import useWebSocket from "../hooks/useWebSocket";
 
 const TemperatureDisplay = () => {
-  const { temperature, isConnected } = useWebSocket("ws://172.20.9.209");
+  const { temperature, isConnected } = useWebSocket("ws://172.20.9.209:8765");
 
   return (
     <div className="p-4 rounded-lg shadow-md bg-white text-center">

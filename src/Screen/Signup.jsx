@@ -19,7 +19,13 @@ function Signup() {
         <form onSubmit={handleSignup} className="form">
           <label>Email:</label>
           <input type="text" placeholder="Enter your email" required />
+          
+          <label>First Name:</label>
+          <input type="text" placeholder="Enter your first name" required />
 
+          <label>Last Name:</label>
+          <input type="text" placeholder="Enter your Last name" required />
+          
           <label>Password:</label>
           <input type="password" placeholder="Enter your password" required />
 
